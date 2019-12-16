@@ -4,7 +4,7 @@ def reverse_each_word(phrase)
   phrase_array.map! do |word|
     final_phrase << word.reverse
   end
-  final_phrase.join
+  final_phrase.join(" ")
   
   
 end  
